@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   package="tld.www.flashlight"
   android:versionCode="1"
-  android:versionName="0.0.1">
+  android:versionName="1.0.0">
   <supports-screens
     android:smallScreens="true"
     android:normalScreens="true"
@@ -13,11 +13,11 @@
     android:anyDensity="true"
     />
   <uses-permission android:name="android.permission.CAMERA" />
-  <application android:label="@string/appname">
+  <application android:label="Flashlight">
     <activity
       android:name="Flashlight"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-      android:label="@string/appname">
+      android:label="Flashlight">
       <intent-filter>
       <action android:name="android.intent.action.MAIN" />
       <category android:name="android.intent.category.LAUNCHER" />
