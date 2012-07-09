@@ -13,11 +13,11 @@
     android:anyDensity="true"
     />
   <uses-permission android:name="android.permission.CAMERA" />
-  <application android:label="Flashlight">
+  <application android:label="@string/flashlight">
     <activity
-      android:name="Flashlight"
+      android:name="@string/flashlight"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-      android:label="Flashlight">
+      android:label="@string/flashlight">
       <intent-filter>
       <action android:name="android.intent.action.MAIN" />
       <category android:name="android.intent.category.LAUNCHER" />
